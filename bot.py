@@ -55,7 +55,7 @@ class Website:
 
             if self.driver.find_element_by_xpath(xpath_check_button).text == "Next question":
                 correct += 1
-                print(f"Correct! Number: {correct}")
+                print("Correct! Number: {correct}")
 
                 replaceable = index
                 index = 1
